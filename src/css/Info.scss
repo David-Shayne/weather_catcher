@@ -1,0 +1,49 @@
+.location-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 14vh;
+
+    p {
+        font-size: 1.33em;
+        margin: 0 auto !important;
+        margin-top: 0.5em !important;
+        font-weight: 100;
+    }
+
+    h2 {
+        margin: 0 auto !important;
+        font-size: 3.33em;
+    }
+}
+
+.temperature-container {
+    background: rgba(255, 255, 255, 0.123);
+    width: auto !important;
+    padding: 0.5em;
+    margin: 0 auto;
+    margin-top: 3.33vh !important;
+    box-shadow: rgba(0, 0, 0, 0.239) 6px 6px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        margin: 0 auto !important;
+        font-size: 10em;
+        font-weight: 1000;
+    }
+}
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.33vh;
+
+    h1 {
+        font-size: 6em;
+        font-weight: 700;
+        margin: 0 auto;
+    }
+}
